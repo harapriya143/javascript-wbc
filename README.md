@@ -178,3 +178,70 @@ write a code which can give grades to student according to their score.
 3. 60-69(C)
 4. 50-59(D)
 5. 0-49(fail - go for aganwadi)
+
+
+Loops in JavaScript:-
+
+- loops are used to execute a pice of code again and again.
+- There are 5 types of loops are there 
+1. For loop:-
+
+- syntax:- 
+for(initialization; condition; updation;){
+  statement
+}
+
+ex. - we want to print "Web Bocket" 5 times,
+
+for(let i= 1; i<= 5; i++){
+  console.log("Web Bocket")
+}
+
+working :-
+
+
+i = 1 -> web bocket
+i = 2 -> web bocket
+i = 3 -> web bocket
+i = 4 -> web bocket
+i = 5 -> web bocket
+
+
+2. While loop:-
+
+-syntax:-
+initialize;
+ while (condition){
+  statement;
+  update;
+ }
+
+ ex -> Print "GIFT" 5 times in while loop
+
+ let i = 1
+ while (i <= 5){
+  console.log("GIFT");
+  i++;
+ }
+
+
+3. Do-while loop:-
+
+- syntax:-
+
+initialize;
+do{
+  statement;
+  updation;
+} while(condition)
+
+4. For-of loop:-
+- it iterates on String & Array
+
+5. For-in loop:-
+- it iterates on Objects
+
+<!-- ex. 
+let i = hari
+
+let arr = ["sita", "hari", "bibhu", "ram"] -->
